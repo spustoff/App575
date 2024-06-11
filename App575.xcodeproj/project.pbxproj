@@ -18,7 +18,6 @@
 		F93D4CCD2BF3BC2F00621CD8 /* Users_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CCC2BF3BC2F00621CD8 /* Users_1.swift */; };
 		F93D4CCF2BF3BC3200621CD8 /* Users_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CCE2BF3BC3200621CD8 /* Users_2.swift */; };
 		F93D4CD12BF3BC3500621CD8 /* Users_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CD02BF3BC3500621CD8 /* Users_3.swift */; };
-		F93D4CD42BF3BE2000621CD8 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F93D4CD32BF3BE2000621CD8 /* OneSignalFramework */; };
 		F93D4CD62BF3BE3B00621CD8 /* Was.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CD52BF3BE3B00621CD8 /* Was.swift */; };
 		F93D4CD82BF3BE3E00621CD8 /* Das.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CD72BF3BE3E00621CD8 /* Das.swift */; };
 		F93D4CDA2BF3BE4100621CD8 /* Sas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93D4CD92BF3BE4100621CD8 /* Sas.swift */; };
@@ -49,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F93D4CD42BF3BE2000621CD8 /* OneSignalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +158,6 @@
 			);
 			name = App575;
 			packageProductDependencies = (
-				F93D4CD32BF3BE2000621CD8 /* OneSignalFramework */,
 			);
 			productName = App575;
 			productReference = F93D4CAC2BF3BB6800621CD8 /* App575.app */;
@@ -191,7 +188,6 @@
 			);
 			mainGroup = F93D4CA32BF3BB6800621CD8;
 			packageReferences = (
-				F93D4CD22BF3BE2000621CD8 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
 			);
 			productRefGroup = F93D4CAD2BF3BB6800621CD8 /* Products */;
 			projectDirPath = "";
@@ -363,12 +359,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App575/App575.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App575/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App575/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Card Armada";
+				INFOPLIST_KEY_CFBundleDisplayName = "Poker: Online.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -379,7 +375,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = main.App575;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -399,12 +395,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = App575/App575.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"App575/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App575/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Card Armada";
+				INFOPLIST_KEY_CFBundleDisplayName = "Poker: Online.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -415,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = main.App575;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -450,25 +446,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F93D4CD22BF3BE2000621CD8 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F93D4CD32BF3BE2000621CD8 /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F93D4CD22BF3BE2000621CD8 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalFramework;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F93D4CA42BF3BB6800621CD8 /* Project object */;
 }

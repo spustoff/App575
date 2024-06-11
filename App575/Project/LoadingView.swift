@@ -19,7 +19,7 @@ struct LoadingView: View {
             Image("logo_big")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 150, height: 150)
+                .frame(width: 250, height: 250)
             
             ProgressView()
                 .frame(maxHeight: .infinity, alignment: .bottom)
